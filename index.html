@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Added small greeting placeholder above main heading -->
+            <div id="greeting" class="greeting-small"></div>
+
+            <h1>Weather Dashboard</h1>
+            <button id="themeToggle" aria-label="Toggle Dark Mode">🌙</button>
+        </header>
+        <div class="search">
+            <input type="text" id="cityInput" placeholder="Enter a city name...">
+            <button id="searchBtn">Search</button>
+            <button id="geoBtn">📍</button>
+        </div>
+        <div id="alert"></div>
+        <section class="current-weather" id="currentWeather"></section>
+        <section class="extras">
+            <div id="uv"></div>
+            <div id="aqi"></div>
+        </section>
+        <h2>Hourly (Next 24h)</h2>
+        <div class="hourly" id="hourlyForecast"></div>
+        <h2>5-Day Forecast</h2>
+        <div class="five-day" id="fiveDayForecast"></div>
+        <footer>
+            <p>Made for Project 2025 &copy; Weather Dashboard</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
