@@ -11,11 +11,6 @@ This Weather Dashboard project is a responsive, user-friendly web app built with
 - Error handling and user-friendly messaging for invalid inputs or API issues
 - Clean, modern, and accessible user interface
 
-## Screenshots
-
-![Current Weather](assets/screenshot1.png)
-![Forecast View](assets/screenshot2.png)
-
 ## Installation
 
 1. Clone the repository:
